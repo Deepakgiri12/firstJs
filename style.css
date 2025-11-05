@@ -44,11 +44,12 @@
     border: 2px solid rgb(124, 120, 120);
     height: 35px;
     border-radius: 5px;
-    padding-left: 5px;
+    padding-left: 8px;
 }
 .btn{
      border-radius: 5px;
     width: 50px;
     background-color: rgb(167, 164, 164);
 }
+
 
