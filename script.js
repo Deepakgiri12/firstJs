@@ -6,7 +6,9 @@ const box2=document.querySelector(".box-2");
 const box3=document.querySelector(".box-3");
 const box4=document.querySelector(".box-4");
 btn.addEventListener("click", () => {
-    greet.innerHTML = "Hello,"+input.value;
+    if(input.value!=""){
+        greet.innerHTML = "Hello,"+input.value;
+    }
 });
 
 box1.addEventListener("click",()=>{
@@ -25,4 +27,5 @@ box4.addEventListener("click",()=>{
     box4.style.backgroundColor="yellow";
     box4.style.color="black";
 })
+
 
